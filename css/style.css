@@ -66,17 +66,19 @@ header nav {
     display: flex;
     justify-content: space-between;
     gap: 68px;
-    padding: 0 50px;
+    margin: 0px;
 }
 
 header nav a {
-    padding: 16px 0 0 0;
+    gap: 60px;
+    
 }
 
 header nav a:hover {
     color: var(--main-color);
-    border-top: 3px solid var(--main-color);
+    border-top: 2px solid var(--main-color);
     padding: 13px 0 0 0;
+
 }
 
 .euro {
@@ -190,6 +192,8 @@ form {
     padding: 4px 19px;
     border-radius: 25px; 
     border: 2px solid #d9d9d9; 
+    
+    
 }
 
 .Filter i {
@@ -420,6 +424,7 @@ h3{
     .filter{
         flex-direction: column;
         gap: 5px;
+        
     }
     h3{
         font-size: 0.9rem;
@@ -648,18 +653,26 @@ h3{
     padding-top: 20px; 
    } 
 
-   footer {
-    display: flex;
+.footer {
     flex-direction: column;
-    row-gap: 20px;
-    padding: 0%;
-    padding: 30px;
+    align-items: center;
+    gap: 50px;
+    margin: 0%;
+    margin-top: 30px;
+}
+
+.footer .liens {
+    gap: 15px;
+    width: 100%;
+    
+    
 }
 
 
     .liens{ 
         width: 50%; 
-    } 
+        
+            } 
 
 
 }
