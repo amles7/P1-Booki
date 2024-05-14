@@ -162,11 +162,11 @@ form {
 .Filter {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Alignement avec espacement uniforme */
+  justify-content: space-between;
   flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
   width: 758px;
   height: 50px;
-  gap: 15px; /* Ajoute un espace entre les éléments */
+  gap: 15px;
   padding: 15px;
 }
 
@@ -188,11 +188,11 @@ form {
 
 .Filter i {
   font-size: 24px;
-  margin-right: 5px; /* Espace entre l'icône et le texte */
+  margin-right: 4px; /* Espace entre l'icône et le texte */
 }
 
 .Filter p {
-  margin: 0; /* Enlève les marges par défaut des paragraphes */
+  margin: 0;
   font-size: 17px;
   font-weight: bold;
 }
@@ -213,7 +213,7 @@ form {
   height: 24px;
   border-radius: 50%; /* Arrondi pour créer un cercle */
   border: 1px solid #d9d9d9;
-  background-color: transparent; /* Définit la couleur d'arrière-plan du cercle, si nécessaire */
+  background-color: transparent;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -551,7 +551,7 @@ h3 {
 
   .Filter {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Deux colonnes par défaut */
+    grid-template-columns: 1fr 1fr; /* Deux colonnes  */
     gap: 10px;
     align-items: center;
     justify-content: space-between;
