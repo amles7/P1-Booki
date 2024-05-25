@@ -111,7 +111,7 @@ form {
   width: 377px;
   height: 49px;
   border-radius: 15px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
 }
 
 .icon-de-recherche {
@@ -410,20 +410,19 @@ h3 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  
-    .Filter {
-      display: flex;
-      flex-wrap: wrap;
-      height: auto;
-      width: auto;
-      padding: 15px;
-    }
-  
-    .Filter h2 {
-      width: 100%;
-      margin-bottom: 15px; /* Espace sous le titre */
-    }
-  
+  .Filter {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    padding: 15px;
+  }
+
+  .Filter h2 {
+    width: 100%;
+    margin-bottom: 15px; /* Espace sous le titre */
+  }
+
   h3 {
     font-size: 0.9rem;
   }
@@ -482,7 +481,7 @@ h3 {
     min-width: 320px;
     margin: 0px;
   }
-  .main-container{
+  .main-container {
     padding: 0px;
   }
   header {
@@ -520,22 +519,21 @@ h3 {
   .info-section {
     padding: 0 20px;
   }
-  
+
   .trouver-hebergements {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
-  .accueil-title  {
+
+  .accueil-title {
     font-size: 2em; /* Ajustez la taille de la police du titre */
     line-height: 1.2; /* Ajustez l'espacement entre les lignes */
     margin-bottom: 10px; /* Espace entre le titre et le sous-titre */
   }
   .section-title p {
     font-size: 1.2em;
-    
   }
-  
+
   /*Barre de recherche*/
 
   .info-search-container {
@@ -554,7 +552,7 @@ h3 {
     align-items: center;
     width: 100%;
   }
-  
+
   .search-bar button {
     display: none;
   }
@@ -605,12 +603,11 @@ h3 {
   .info-number {
     display: flex;
     flex-wrap: nowrap;
-}
-.icon-info {
-  width: 40px;
-  height: 40px;
-  
-}
+  }
+  .icon-info {
+    width: 40px;
+    height: 40px;
+  }
 
   .info-number p {
     font-size: 2em;
@@ -618,7 +615,7 @@ h3 {
   }
   .hebergements-and-populaires section {
     gap: 16px;
-            padding: 30px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
   }
 
   .hebergements-and-populaires .populaires {
@@ -637,13 +634,11 @@ h3 {
   }
 
   .populaires-cards img {
-   
-      object-fit: cover;
-      width: 33%;
-      height: 136px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-
+    object-fit: cover;
+    width: 33%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
   .hebergements-and-populaires .hebergements {
